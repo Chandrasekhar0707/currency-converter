@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: #222;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, backdrop-filter 0.25s ease;
+    backdrop-filter: blur(12px);
+}
+
+.container:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 24px 45px rgba(0, 0, 0, 0.18);
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form, select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #000000c4;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    border: 1px solid lightgray;
+
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+}
+
+form button {
+    padding: 12px 14px;
+    background: linear-gradient(90deg, #af4d98 0%, #d76ba3 100%);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    border: none;
+    box-shadow: 0 8px 20px rgba(175,77,152,0.12);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 36px rgba(167,71,147,0.18);
+    filter: brightness(1.03);
+}
+
+form button:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+form button:focus {
+    outline: 3px solid rgba(167,71,147,0.12);
+    outline-offset: 2px;
+}
