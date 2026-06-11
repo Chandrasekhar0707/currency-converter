@@ -20,6 +20,7 @@ A modern and responsive Currency Converter web application built using HTML, CSS
 
 ## 📂 Project Structure
 
+```text
 Currency-Converter/
 │
 ├── index.html
@@ -27,6 +28,7 @@ Currency-Converter/
 ├── script.js
 ├── codes.js
 └── README.md
+```
 
 
 ## 🔗 API Used
