@@ -37,6 +37,10 @@ Exchange rates are fetched from:
 
 https://latest.currency-api.pages.dev/
 
+## 🌐 Live Demo
+
+https://curr-converterrr.netlify.app/
+
 ## 🎯 How It Works
 
 1. Enter the amount you want to convert.
